@@ -1,0 +1,35 @@
+@import url('https://design-system.immutable.com/hosted-for-ds/css/im-fonts-v3.css');
+
+/* 
+
+    GLOBAL STYLES 
+
+    Please, think very carefully before putting stuff in here. 
+    The only things that belong in here are styles for the elements that 
+    sit outside of React's reach (eg html, body and #app). 
+    Everything else should go into @emotion/css style files (*.style.ts)
+
+  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+pre {
+  margin: 0;
+}
+
+body {
+  /* Get fonts to look slightly nicer where possible */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
